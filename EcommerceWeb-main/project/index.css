@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    overflow-x: hidden;
+    width: 100%;
+}
+section{
+    color: white;
+}
+header 
+{
+    background-color:transparent;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 6px 1px #1f242d;
+    text-wrap: wrap;
+}
+#dateDisplay 
+{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.firstStep
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+form{
+    color: white;
+    
+}
+form input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+
+}
+button{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+nav 
+{
+   height: fit-content;
+   width:auto; 
+   margin: 1% 1% 1% 1% ;
+   text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+    
+}
+nav ul li{
+    float: left;
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    box-shadow: 0.5px 0.1px 3px 0.5px white;
+    padding: 14px;
+    border-radius: 5px;
+    z-index: 1;
+    color: white;
+}
+nav ul li a:hover{
+    box-shadow: 0.5px 0.1px 3px 0.5px black;
+    color: gray;
+    transition: 0.8s;
+}
+
+#dropDown{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 3px solid transparent;
+    background-color: #1f242d;
+
+}
+#dropDown ul li {
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+#dropDown ul li:hover {
+    box-shadow:  0.5px 0.1px 3px 0.5px white;
+   border-radius: 10px;
+  
+}
